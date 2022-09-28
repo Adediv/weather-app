@@ -1,0 +1,245 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* color: #ffffff; */
+    overflow: hidden;
+    
+}
+.gen-div{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    background-image: url(https://t3.ftcdn.net/jpg/01/19/18/92/360_F_119189251_kiyixdA3xj8dcCimKuVa4e5DcuslHJPs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.info-gendiv{
+    position: absolute;
+    bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.info-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#degree{
+    height: 50px;
+    width: 100px;
+    font-size: 3.5em;
+}
+#cityName{
+    height: 30px;
+    width: 120px;
+}
+#condition{
+    height: 30px;
+    width: 120px;
+}
+.leftside-div{
+    height: 100vh;
+    position: relative;
+}
+.rightsidebar{
+    height: 100vh;
+    position: relative;
+    background-color: rgba(225, 225, 225, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}
+#userLocation{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    padding: 8px;
+    width: 70%;
+    outline: none;
+    /* color: #ffffff; */
+}
+#userLocation::placeholder{
+    /* color: #ffffff; */
+}
+button{
+    background-color: #48484A;
+    border: none;
+}
+.a{
+    height: 25px;
+}
+hr{
+    color: #ffffff;
+}
+
+@media all and (max-width:320px){
+    .info-gendiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.5em;
+    }
+    .country{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .a{
+        font-size: 0.8em;
+        height: 15px;
+        margin-top: -10px;
+    }
+    .con{
+        font-size:0.8em;
+    }
+    #userLocation{
+        font-size: 0.8em;
+    }
+    #userLocation::placeholder{
+        font-size: 0.6em;
+    }
+}
+@media all and (min-width:321px) and (max-width:375px){
+    .info-gendiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.5em;
+    }
+    .country{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .a{
+        font-size: 0.8em;
+        height: 15px;
+        margin-top: -10px;
+    }
+    .con{
+        font-size:0.8em;
+    }
+    #userLocation::placeholder{
+        font-size: 0.6em;
+    } 
+}
+@media all and (min-width:376px) and (max-width:425px){
+    .info-gendiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.5em;
+    }
+    .country{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .a{
+        font-size: 0.8em;
+        height: 15px;
+        margin-top: -10px;
+    }
+    .con{
+        font-size:0.8em;
+    }
+    #userLocation::placeholder{
+        font-size: 0.8em;
+    } 
+}
+@media all and (min-width:426px) and (max-width:630px){
+    .info-gendiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.5em;
+    }
+    .country{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .a{
+        font-size: 0.8em;
+        height: 15px;
+        margin-top: -10px;
+    }
+    .con{
+        font-size:0.8em;
+    }
+    #userLocation::placeholder{
+        font-size: 0.8em;
+    }
+}
+@media all and (min-width:631px) and (max-width:768px){
+    .info-gendiv{
+        column-gap: 20px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.0em;
+    }
+    .country{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .a{
+        font-size: 0.9em;
+        height: 15px;
+        margin-top: -10px;
+    }
+    .con{
+        font-size:0.9em;
+    }
+    #userLocation::placeholder{
+        font-size: 0.8em;
+    } 
+}
+@media all and (min-width:769px) and (max-width:820px){
+    .info-gendiv{
+        column-gap: 20px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.0em;
+    }
+}
+@media all and (min-width:821px) and (max-width:912px){
+    .info-gendiv{
+        column-gap: 20px;
+    }
+    .info-div{
+        justify-content: start;
+        align-items: center;
+    }
+    #degree{
+        font-size: 3.0em;
+    }
+}
